@@ -1,24 +1,50 @@
 body
 {
 	background-color: black;
+	font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
 }
 header
 {
 	color: white;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px; 
+}
+.p3
+{
+	margin-left: 70px;
+
+}
+nav ul
+{
+	margin-right: 50px;
+	list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 20px;
 }
 hr
 {
-	color: red;
+	width: 90%;
 }
 h1
 {
 	color: white;
 	text-align: center;
+	margin-top: 150px;
 }
 .menu
 {
-	text-align: center;
+	width: 500px;
+	margin: auto;
+	display: flex;
 	color: gray;
+	background-color: blue;
+	text-align: center;
 }
 h4
 {
