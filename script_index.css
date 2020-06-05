@@ -1,0 +1,34 @@
+body
+{
+	background-color: black;
+}
+header
+{
+	color: white;
+}
+hr
+{
+	color: red;
+}
+h1
+{
+	color: white;
+	text-align: center;
+}
+.menu
+{
+	text-align: center;
+	color: gray;
+}
+h4
+{
+	color: white;
+}
+.ligne_verticale
+{
+	color: white;
+	border-left: 2px solid gray;
+    display: inline-block;
+    height: 130px;
+    margin: 0 20px;
+}
