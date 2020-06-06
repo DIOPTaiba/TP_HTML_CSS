@@ -1,6 +1,6 @@
 body
 {
-	background-color: black;
+	background-color: #00000F;
 	font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
 }
 header
@@ -36,25 +36,46 @@ h1
 	color: white;
 	text-align: center;
 	margin-top: 150px;
+	margin-bottom: 55px;
+	font-size: 45px;
 }
-.menu
+.conteneur
 {
-	width: 500px;
+	width: 70%;
 	margin: auto;
-	display: flex;
 	color: gray;
-	background-color: blue;
 	text-align: center;
+	display: flex;
+	justify-content: space-between;
+    
 }
-h4
+h3
 {
 	color: white;
+	margin-bottom: 10px;
+	margin-top: 20px;
 }
 .ligne_verticale
 {
-	color: white;
 	border-left: 2px solid gray;
     display: inline-block;
     height: 130px;
-    margin: 0 20px;
+}
+.fa 
+{
+	color: #4CC18F;
+ }
+button
+{
+	width: 170px;
+	margin: auto;
+	margin-top: 45px;
+	height: 38px;
+	font-size: 11px;
+	border-radius: 20px;
+	border: 3px solid #2E8B57;
+	background: none;
+	color: #2E8B57;
+	font-weight: bold;
+	display: block;
 }
