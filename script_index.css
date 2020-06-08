@@ -1,6 +1,6 @@
 body
 {
-	background-color: #00000F;
+	background: no-repeat url("background.png");
 	font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
 }
 header
@@ -30,6 +30,9 @@ nav li
 hr
 {
 	width: 90%;
+	background-color: gray;
+	border-color: gray;
+	height: 1px;
 }
 h1
 {
@@ -53,13 +56,13 @@ h3
 {
 	color: white;
 	margin-bottom: 10px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 .ligne_verticale
 {
 	border-left: 2px solid gray;
     display: inline-block;
-    height: 130px;
+    height: 115px;
 }
 .fa 
 {
